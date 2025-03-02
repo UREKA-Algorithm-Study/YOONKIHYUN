@@ -1,4 +1,4 @@
-package b_problem;
+package b_2;
 
 import java.util.Scanner;
 
@@ -6,18 +6,18 @@ public class b_9498 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-
-		int N = sc.nextInt(); // 시험점수 입력
-
-		if (90 <= N && 100 >= N) {
+		
+		int num = sc.nextInt();
+		
+		if(90<=num && 100>=num)
 			System.out.println("A");
-		} else if (80 <= N && 89 >= N) {
+		else if(80<=num && 89>=num)
 			System.out.println("B");
-		} else if (70 <= N && 79 >= N) {
+		else if(70<=num && 79>=num)
 			System.out.println("C");
-		} else if (60 <= N && 69 >= N) {
+		else if(60<=num && 69>=num)
 			System.out.println("D");
-		} else
+		else
 			System.out.println("F");
 	}
 }
