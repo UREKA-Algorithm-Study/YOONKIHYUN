@@ -1,4 +1,4 @@
-package b_problem;
+package b_2;
 
 import java.util.Scanner;
 
@@ -10,18 +10,18 @@ public class b_14681 {
 		int x = sc.nextInt();
 		int y = sc.nextInt();
 		
-		if (x > 0 && y > 0) {
+		if(x > 0 && y > 0) {
 			System.out.println(1);
 		}
-		if (x < 0 && y > 0) {
+		if(x < 0 && y > 0) {
 			System.out.println(2);
 		}
-		if (x < 0 && y < 0) {
+		if(x < 0 && y < 0) {
 			System.out.println(3);
 		}
-		if (x > 0 && y < 0) {
+		if(x > 0 && y < 0) {
 			System.out.println(4);
 		}
-		
 	}
+
 }
