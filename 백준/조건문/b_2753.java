@@ -1,4 +1,4 @@
-package b_problem;
+package b_2;
 
 import java.util.Scanner;
 
@@ -6,13 +6,13 @@ public class b_2753 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-
-		int N = sc.nextInt();	//연도입력
 		
-		if (N % 4 == 0 && N % 100 != 0 || N % 400 == 0) {
+		int year = sc.nextInt();
+		
+		if(year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
 			System.out.println("1");
-		} else {
+		} else
 			System.out.println("0");
-		}
 	}
+
 }
