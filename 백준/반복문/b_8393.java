@@ -1,4 +1,4 @@
-package b_problem;
+package b_3;
 
 import java.util.Scanner;
 
@@ -6,15 +6,14 @@ public class b_8393 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-
+		
 		int n = sc.nextInt();
-
-		int result = 0;
-		for (int i = 1; i <= n; i++) {
-			result += i;
+		int sum = 0;
+		
+		for(int i = 1; i <= n; i++) {
+			sum += i;
 		}
-
-		System.out.println(result);
+		
+		System.out.println(sum);
 	}
-
 }
