@@ -1,4 +1,4 @@
-package b_problem;
+package b_3;
 
 import java.util.Scanner;
 
@@ -6,19 +6,19 @@ public class b_25304 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-
-		int X = sc.nextInt(); // 영수증에 적힌 총 금액 X
-		int N = sc.nextInt(); // 구매한 물건의 종류의 수 N
-		int result = 0;
-
-		for (int i = 1; i <= N; i++) {
-			int a = sc.nextInt(); // 가격 a
-			int b = sc.nextInt(); // 개수 b
-
-			result += (a*b);
+		
+		int X = sc.nextInt();
+		int N = sc.nextInt();
+		int sum = 0;
+		
+		for(int i = 1; i <= N; i++) {
+			int a = sc.nextInt();
+			int b = sc.nextInt();
+			
+			sum += (a*b);
 		}
-
-		if (X == result) {
+		
+		if(X == sum) {
 			System.out.println("Yes");
 		} else {
 			System.out.println("No");
