@@ -1,4 +1,4 @@
-package 반복문;
+package b_3;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -15,7 +15,7 @@ public class b_15552 {
 		int T = Integer.parseInt(br.readLine());
 		
 		for(int i = 0; i < T; i++) {
-			String[] input = br.readLine().split(" ");	
+			String[] input = br.readLine().split(" ");
 			int A = Integer.parseInt(input[0]);
 			int B = Integer.parseInt(input[1]);
 			
@@ -26,5 +26,4 @@ public class b_15552 {
 		bw.close();
 		br.close();
 	}
-
 }
